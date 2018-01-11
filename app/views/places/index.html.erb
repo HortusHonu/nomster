@@ -7,3 +7,9 @@
 
 
 <% end %>
+
+	<div class="pagination-wrapper">
+		<div class="digg_pagination">
+		<%= will_paginate @places, renderer: BootstrapPagination::Rails %>
+		</div>
+	</div>
