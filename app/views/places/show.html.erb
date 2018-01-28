@@ -119,11 +119,11 @@
 </div>
 
 
-<div class="col-10 offset-1">
+  <div class="booyah-box col-10 offset-1">
   <h1>Photos</h1>
   <% @place.photos.each do |photo| %>
   <div class="col-12 col-sm-6">
-    <%= image_tag photo.picture %>
+    <%= image_tag photo.picture, :class => 'img-fluid index-image' %>
     <%= photo.caption %>
   </div>
   <% end %>
