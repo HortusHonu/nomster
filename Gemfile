@@ -64,5 +64,5 @@ gem 'font-awesome-rails'
 gem 'devise'
 gem "geocoder"
 gem "figaro"
-gem 'carrierwave', '~> 1.0'
+gem "carrierwave", ">= 2.2.6"
 gem "fog-aws"
