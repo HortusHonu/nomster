@@ -74,9 +74,10 @@ GEM
     bindex (0.8.1)
     bootsnap (1.18.3)
       msgpack (~> 1.2)
-    bootstrap (4.0.0.alpha6)
-      autoprefixer-rails (>= 6.0.3)
-      sass (>= 3.4.19)
+    bootstrap (5.0.0.beta1)
+      autoprefixer-rails (>= 9.1.0)
+      popper_js (>= 1.14.3, < 2)
+      sassc-rails (>= 2.0.0)
     builder (3.3.0)
     byebug (11.1.3)
     carrierwave (3.0.7)
@@ -167,7 +168,7 @@ GEM
     minitest (5.23.1)
     msgpack (1.7.2)
     multi_json (1.15.0)
-    net-imap (0.4.12)
+    net-imap (0.4.13)
       date
       net-protocol
     net-pop (0.1.2)
@@ -241,6 +242,14 @@ GEM
       sprockets (>= 2.8, < 4.0)
       sprockets-rails (>= 2.0, < 4.0)
       tilt (>= 1.1, < 3)
+    sassc (2.4.0)
+      ffi (~> 1.9)
+    sassc-rails (2.1.2)
+      railties (>= 4.0.0)
+      sassc (>= 2.0)
+      sprockets (> 3.0)
+      sprockets-rails
+      tilt
     simple_form (5.3.1)
       actionpack (>= 5.2)
       activemodel (>= 5.2)
@@ -289,7 +298,7 @@ PLATFORMS
 
 DEPENDENCIES
   bootsnap
-  bootstrap (= 4.0.0.alpha6)
+  bootstrap (>= 4.3.1)
   byebug
   carrierwave (>= 2.2.6)
   coffee-rails (~> 4.2)
