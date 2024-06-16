@@ -57,7 +57,7 @@ source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end
 
-gem 'popper_js', '~> 1.11.1'
+gem 'popper_js', '<= 2.0'
 gem 'bootstrap', '4.0.0.alpha6'
 gem 'will_paginate-bootstrap'
 gem 'simple_form'
